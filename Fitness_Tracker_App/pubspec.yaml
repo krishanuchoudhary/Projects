@@ -1,0 +1,24 @@
+name: codealpha_fitness_tracker
+
+description: A clean offline fitness tracker built for the CodeAlpha App Development Task 3.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.12.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  fl_chart: ^1.2.0
+  intl: ^0.20.3
+  sqflite: ^2.4.4+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
